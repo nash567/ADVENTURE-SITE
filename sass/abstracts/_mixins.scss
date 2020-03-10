@@ -1,0 +1,11 @@
+@mixin clearfix
+{
+    //row::after
+    &::after
+    {
+        content: "";
+        display: table;
+        clear:both;
+        
+    }
+}
